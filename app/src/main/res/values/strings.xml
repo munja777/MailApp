@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<resources>
+    <string name="app_name">MailApp</string>
+    <string name="login_hint">Your email</string>
+    <string name="password_hint">Password</string>
+    <string name="host_hint">Host</string>
+    <string name="port_hint">Port</string>
+    <string name="test_connection_button">test</string>
+    <string name="mail_to_hint">Mail to</string>
+    <string name="put_last_mail_to_button">Last</string>
+    <string name="clear_mail_to_button">Clear</string>
+    <string name="subject_hint">Subject</string>
+    <string name="body_hint">Body</string>
+    <string name="send_mail_button">send</string>
+
+    <string name="LOGIN_EDIT_TEXT_KEY">loginEditTextKey</string>
+    <string name="PASSWORD_EDIT_TEXT_KEY">passwordEditTextKey</string>
+    <string name="HOST_EDIT_TEXT_KEY">hostEditTextKey</string>
+    <string name="PORT_EDIT_TEXT_KEY">portEditTextKey</string>
+    <string name="MAIL_TO_EDIT_TEXT_KEY">mailToEditTextKey</string>
+</resources>
