@@ -1,5 +1,5 @@
 # MailApp
-simple email client
+simple email client for all mails (not only gmail)
 
 For Gmail first turn on less-secure applications:
 https://myaccount.google.com/lesssecureapps
