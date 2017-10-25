@@ -12,7 +12,7 @@ import com.domij.artur.mailapp.sender.MailSender;
 public class SendMailTask extends AsyncTask<Object, Void, Void> {
 
     private Toaster toaster = new Toaster();
-    private static final String networkConnectionIsDisabled = "Network connection is disabled. First turn on";
+    private static final String NETWORK_CONN_UNAVAILABLE = "Network connection is disabled. First turn on";
 
     @Override
     protected Void doInBackground(Object... params) {
@@ -30,7 +30,7 @@ public class SendMailTask extends AsyncTask<Object, Void, Void> {
             MailSender.sendMail(loginEditText, passwordEditText, hostEditText, portEditText,
                     mailToEditText, subjectEditText, bodyEditText);
         } else {
-            toaster.toast(context, networkConnectionIsDisabled);
+            toaster.toast(context, NETWORK_CONN_UNAVAILABLE);
         }
         return null;
     }
