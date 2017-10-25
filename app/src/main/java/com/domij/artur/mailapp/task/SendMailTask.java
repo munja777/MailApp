@@ -14,30 +14,6 @@ public class SendMailTask extends AsyncTask<Object, Void, Void> {
     private Toaster toaster = new Toaster();
     private static final String networkConnectionIsDisabled = "Network connection is disabled. First turn on";
 
-//    private Context context;
-//    private EditText loginEditText;
-//    private EditText passwordEditText;
-//    private EditText hostEditText;
-//    private EditText portEditText;
-//    private EditText mailToEditText;
-//    private EditText subjectEditText;
-//    private EditText bodyEditText;
-//
-//    public SendMailTask(Context context, EditText loginEditText, EditText passwordEditText,
-//                        EditText hostEditText, EditText portEditText, EditText mailToEditText,
-//                        EditText subjectEditText, EditText bodyEditText){
-//        this.context = context;
-//        this.loginEditText = loginEditText;
-//        this.passwordEditText = passwordEditText;
-//        this.hostEditText = hostEditText;
-//        this.portEditText = portEditText;
-//        this.mailToEditText = mailToEditText;
-//        this.subjectEditText = subjectEditText;
-//        this.bodyEditText = bodyEditText;
-//    }
-
-
-
     @Override
     protected Void doInBackground(Object... params) {
 
